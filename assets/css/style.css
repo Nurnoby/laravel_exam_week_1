@@ -233,7 +233,12 @@ header h1{
   padding-bottom: 30px;
   border-bottom: 1px solid #bebebe;
 }
-
+.main{
+  width: 800px;
+  margin: 50px auto; 
+  display: flex;
+  justify-content: space-around;
+}
 
 
 /* Profile Card Css Style  */
@@ -311,7 +316,7 @@ header h1{
   justify-content: space-between;
   margin-top: 50px;
 }
-.profile-cta .btn{
+.btn{
   font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;
@@ -324,15 +329,16 @@ header h1{
   background-color: var(--bee-black);
   transition: .3s all ease-in-out;
 }
-.profile-cta .btn:hover{  
+.btn:hover{  
+  border-color: var(--bee-black);
   background-color: var(--bee-white);
   color: var(--bee-black);
 }
-.profile-cta .btn-sec{
+.btn-sec{
   color:var(--bee-black);
   background-color: var(--bee-white);
 }
-.profile-cta .btn-sec:hover{
+.btn-sec:hover{
   color:var(--bee-white);
   background-color: var(--bee-black);
 }
