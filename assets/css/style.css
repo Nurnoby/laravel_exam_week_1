@@ -271,7 +271,8 @@ header h1{
   border-radius: 50%;
 }
 .profile-information{
-  margin:40px 0;
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(102, 88, 88, 0.15);
 }
 .profile-information h2{
   font-size: 36px;  
@@ -295,6 +296,7 @@ header h1{
 .profile-stats{
   display: flex;
   justify-content: space-between;
+  padding-top: 25px;
 }
 .profile-stats h5{
   font-size: 18px;  
@@ -305,11 +307,16 @@ header h1{
   color: var(--bee-text);
 }
 .profile-stats p{
-  font-size: 20px;  
+  font-size: 16px;  
   font-weight: 600;
   margin: 0;
   margin-bottom: 5px;
   color: #4A4A4A;
+}
+.profile-stats p i{
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 400;
+  
 }
 .profile-cta{
   display: flex;
@@ -371,7 +378,7 @@ header h1{
 .calculator .container{
   max-width: 900px;
 }
-.heading h2{
+.calculator .heading h2{
   font-size: 60px;
   text-transform: capitalize;
   padding-bottom: 15px;
